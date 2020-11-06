@@ -1,0 +1,2 @@
+[1013/235837.903:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Sanny\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\3a8ab6a8-6d9e-440b-bc8e-a30727793937: The system cannot find the path specified. (0x3)
+[1013/235838.430:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
