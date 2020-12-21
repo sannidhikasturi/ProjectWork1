@@ -11,6 +11,8 @@
 	<title>Login</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://apis.google.com/js/platform.js" async defer></script>
+	<meta name="google-signin-client_id" content="354045231646-ev4cqrijtabqmivph3nv2e4adv1l6kl0.apps.googleusercontent.com">
 <!--===============================================================================================-->	
 	<link rel="icon" type="image/png" href="images1/icons/favicon.ico"/>
 <!--===============================================================================================-->
@@ -49,6 +51,7 @@
 					<span class="login100-form-title p-b-33">
 						Log In
 					</span>
+					<div class="g-signin2" data-onsuccess="onSignIn"></div>
 
 					<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
 						<input class="input100" type="text" name="email" placeholder="Email">
