@@ -60,7 +60,7 @@
 					</div>
 
 					<div class="wrap-input100 rs1 validate-input" data-validate="Password is required">
-						<input class="input100" type="password" name="pass" placeholder="Password">
+						<input class="input100" type="password" id="pw" name="pass" placeholder="Password">
 						<span class="focus-input100-1"></span>
 						<span class="focus-input100-2"></span>
 					</div>
@@ -100,7 +100,7 @@
 	
 <script type='text/javascript'>
 function checkform(){
-    if(pass="123"){
+    if(document.getElementById("pw").value == '123' ){
         alert("Login Successful");
        document.location.href='homepage.html';
     }else{
