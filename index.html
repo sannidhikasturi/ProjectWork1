@@ -102,7 +102,7 @@
 function checkform(){
     if(document.getElementById("pw").value == 'san'){
         alert("Login Successful");
-        document.location.href='homepage.html';
+        setTimeout(function() {window.location = "homepage.html" });
     }else{
         alert("Access denied. Valid username and password is required.");
     }
