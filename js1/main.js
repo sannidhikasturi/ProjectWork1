@@ -13,12 +13,7 @@
         for(var i=0; i<input.length; i++) {
             if(validate(input[i]) == false){
                 showValidate(input[i]);
-                alert("INVALID DATA!");
                 check=false;
-            }
-            else {
-            alert("Submitted Successfully!");
-            document.location.href='thankyou.html';
             }
         }
 
@@ -35,7 +30,7 @@
     function validate (input) {
         if($(input).attr('type') == 'email' || $(input).attr('name') == 'email') {
             if($(input).val().trim().match(/^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{1,5}|[0-9]{1,3})(\]?)$/) == null) {
-                return true;
+                return false;
             }
         }
         else {
