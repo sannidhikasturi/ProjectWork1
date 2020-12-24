@@ -59,13 +59,4 @@
         $(thisAlert).removeClass('alert-validate');
     }
     
-    function  formValidator(){
-    if(check==true){
-        alert("Submitted Successfully!");
-        setTimeout(function() {window.location = "thankyou.html" });
-    }else{
-        alert("INVALID! Please check your details.");
-    }
-}
-
 })(jQuery);
