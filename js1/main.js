@@ -13,9 +13,10 @@
         for(var i=0; i<input.length; i++) {
             if(validate(input[i]) == false){
                 showValidate(input[i]);
+                alert("INVALID DATA!");
                 check=false;
             }
-            else if (validate(input[i]) == true){
+            else {
             alert("Submitted Successfully!");
             document.location.href='thankyou.html';
             }
