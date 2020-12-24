@@ -15,7 +15,7 @@
                 showValidate(input[i]);
                 check=false;
             }
-            else {
+            else if (validate(input[i]) == true){
             alert("Submitted Successfully!");
             setTimeout(function() {window.location = "thankyou.html" });
             }
