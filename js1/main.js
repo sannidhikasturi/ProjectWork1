@@ -14,11 +14,10 @@
             if(validate(input[i]) == false){
                 showValidate(input[i]);
                 check=false;
-                alert("Form submission failed! Please try again.");
             }
             else if (validate(input[i]) == true){
             alert("Submitted Successfully!");
-            document.location.href = "thankyou.html";
+            document.location.href = 'thankyou.html';
             }
         }
 
