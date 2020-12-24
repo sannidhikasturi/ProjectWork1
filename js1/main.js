@@ -17,7 +17,7 @@
             }
             else if (validate(input[i]) == true){
             alert("Submitted Successfully!");
-            document.location.href = 'thankyou.html';
+           window.location.assign('thankyou.html');
             }
         }
 
