@@ -15,6 +15,10 @@
                 showValidate(input[i]);
                 check=false;
             }
+            else {
+            alert("Submitted Successfully!");
+            setTimeout(function() {window.location = "thankyou.html" });
+            }
         }
 
         return check;
@@ -58,5 +62,7 @@
 
         $(thisAlert).removeClass('alert-validate');
     }
+   
+  
     
 })(jQuery);
