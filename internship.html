@@ -221,7 +221,7 @@
 
 	<div class="position-item">
           <div class="item">
-            <p>Intership you are looking for: <span class="required">*</span></p>
+            <p>Internship you are looking for: <span class="required">*</span></p>
             <select required>
 	      <option value="0" selected disabled></option>
               <option value="1">Data Science</option>
@@ -315,5 +315,15 @@
         </div>
       </form>
     </div>
+	  <script>
+		  function  formValidator(){
+    if(check==true){
+        alert("Submitted Successfully!");
+        setTimeout(function() {window.location = "thankyou.html" });
+    }else{
+        alert("INVALID! Please check your details.");
+    }
+}
+	  </script>
   </body>
 </html>
